@@ -2,16 +2,22 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "built": "parcel build index.html --dist-dir build",
+    "deploy": "vercel --prod"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "vercel": "^28.2.2"
   },
   "dependencies": {
     "lazysizes": "^5.3.2"
+  },
+  "features": {
+    "cloud": "v1"
   }
+  
 }

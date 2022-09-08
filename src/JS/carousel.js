@@ -12,7 +12,6 @@ let $owl = $('.carousel-2');
             center: true,
             stagePadding: 70,
             nav: true,
-            dots: false,
             navText: ['&lsaquo;', '&rsaquo;'],
             responsive: {
                 0: { items: 1 },

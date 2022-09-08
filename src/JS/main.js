@@ -1,3 +1,4 @@
+window.addEventListener('DOMContentLoaded', animationBlock1)
 window.addEventListener('scroll', animationBlock1);
 window.addEventListener('scroll', animationBlock2);
 window.addEventListener('scroll', animationBlock3);
@@ -8,7 +9,7 @@ const third = document.querySelector('.third');
 
 
 function animationBlock1() {
-    if ( window.scrollY >= (first.clientWidth*0.5)) {
+    if ( window.scrollY >= (first.clientWidth*0.5) || window.innerWidth < 1024) {
         const animation = anime({
             targets: first,
             translateX: [-500, 0],
