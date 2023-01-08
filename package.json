@@ -5,11 +5,12 @@
   "scripts": {
     "start": "parcel index.html",
     "built": "parcel build index.html --dist-dir build",
-    "deploy": "vercel --prod"
+    "deploy":"gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "parcel": "^2.7.0",
     "vercel": "^28.2.2"
   },
@@ -19,5 +20,4 @@
   "features": {
     "cloud": "v1"
   }
-  
 }

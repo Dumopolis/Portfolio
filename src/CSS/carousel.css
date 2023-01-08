@@ -1,23 +1,19 @@
-.carousel-2 .owl-item {
-    padding: 0 0 0 0;
-    
+
+.carousel-2{
+
 }
-
 .carousel-2 .owl-pic {
-    background: #000000b9;
+   
     margin: 5vw 0;
-
     transition: all 0.6s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 5px 7px rgba(0, 0, 0, 0.2);
     
-    width: 100%;
-    
-    box-shadow: 0 4шеpx 8px rgba(0, 0, 0, 0.3), 0 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-2 .owl-item.center .owl-pic {
     opacity: 1;
-    transform: scale(1.1);    
-    
+    transform: scale(1.1); 
+   
     
 }
 
@@ -27,11 +23,8 @@
 }
 
 .carousel-2 .owl-pic img {
-    width: 100%;
-    height: 100%;
     transition: 0.3s opacity ease, 0.3s transform ease;
-    opacity: 0.6;
-    
+    opacity: 0.9;
 }
 
 .carousel-2 .owl-item .owl-pic:hover img,
@@ -49,7 +42,7 @@
     height: 100%;
     width: 70px;
     transition: 0.3s opacity ease;
-    opacity: 0.6;
+    opacity: 0.7;
     margin: 0;
     padding: 0;
 }

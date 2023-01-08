@@ -10,7 +10,7 @@ let $owl = $('.carousel-2');
             loop: true,
             mergeFit: true,
             center: true,
-            stagePadding: 70,
+            
             nav: true,
             navText: ['&lsaquo;', '&rsaquo;'],
             responsive: {
