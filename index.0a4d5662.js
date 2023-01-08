@@ -1,0 +1,2 @@
+let $owl=$(".carousel-2");$owl.children().each((function(o){$(this).attr("data-position",o)})),$(document).on("click",".owl-item>div",(function(){$owl.trigger("to.owl.carousel",[$(this).data("position"),300])})),$owl.owlCarousel({loop:!0,mergeFit:!0,center:!0,nav:!0,navText:["&lsaquo;","&rsaquo;"],responsive:{0:{items:1},600:{items:2},992:{items:3},1200:{items:4}}});
+//# sourceMappingURL=index.0a4d5662.js.map
