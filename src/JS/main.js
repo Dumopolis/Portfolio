@@ -132,7 +132,7 @@ function setVolume() {
 
 const moveto = new MoveTo({
     tolerance: 0,
-    duration: 4000,
+    duration: 7000,
     easing: 'easeOutQuart',
     container: window
   })

@@ -1,23 +1,23 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alice`s website",
+  "main": "main.js",
   "scripts": {
-    "start": "parcel index.html",
-    "built": "parcel build index.html --dist-dir build",
-    "deploy":"gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "surge": "surge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dumopolis/Portfolio.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "parcel": "^2.7.0",
-    "vercel": "^28.2.2"
+  "bugs": {
+    "url": "https://github.com/Dumopolis/Portfolio/issues"
   },
+  "homepage": "https://github.com/Dumopolis/Portfolio#readme",
   "dependencies": {
-    "lazysizes": "^5.3.2"
-  },
-  "features": {
-    "cloud": "v1"
+    "surge": "^0.23.1"
   }
 }

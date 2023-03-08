@@ -10,7 +10,9 @@ let $owl = $('.carousel-2');
             loop: true,
             mergeFit: true,
             center: true,
-            
+            autoplay:true,
+            autoplayHoverPause: true,
+            autoplaySpeed:2000,
             nav: true,
             navText: ['&lsaquo;', '&rsaquo;'],
             responsive: {
